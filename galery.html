@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    background: #EEE;
+    font: 10px/13px 'Lucida Sans',sans-serif;
+}
+.wrap {
+    overflow: hidden;
+    margin: 10px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+    float: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+}
+
+.boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+ .boxInner img { width: 100% }
+
+
+@media only screen and (max-width:480px) { 
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+@media only screen and (max-width:650px) and (min-width:481px) { 
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width:1050px) and (min-width:651px) { 
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+@media only screen and (max-width:1290px) and (min-width:1051px) { 
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <html-include src="nav.html"></html-include>
+    <div class="wrap">
+        <!-- Define all of the tiles: -->
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo1.jpg"/>
+            <div class="titleBox">
+              Butterfly
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo10.jpg"/>
+            <div class="titleBox">
+              An old greenhouse
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo11.jpg"/>
+            <div class="titleBox">
+              Purple wildflowers
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo13.jpg"/>
+            <div class="titleBox">
+              A birdfeeder
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo15.jpg"/>
+            <div class="titleBox">
+              Crocus close-up
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo17.jpg"/>
+            <div class="titleBox">
+              The garden shop
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo2.jpg"/>
+            <div class="titleBox">
+              Spring daffodils
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo3.jpg"/>
+            <div class="titleBox">
+              Iris along the path
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo5.jpg"/>
+            <div class="titleBox">
+              The garden blueprint
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo7.jpg"/>
+            <div class="titleBox">
+              The patio
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo8.jpg"/>
+            <div class="titleBox">
+              Bumble bee collecting nectar
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxInner">
+            <img src="img/photo9.jpg"/>
+            <div class="titleBox">
+              Winding garden path
+            </div>
+          </div>
+        </div>
+      </div>
+   
+
+
+      <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

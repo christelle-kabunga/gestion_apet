@@ -1,0 +1,170 @@
+/* Container holding the image and the text */
+/* .container {
+    position: relative;
+  } 
+  
+  /* Bottom right text */
+  /* .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.4); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 88%; /* Full width */
+    padding: 20px; /* Some padding */
+    text-align: center;
+
+  }
+  
+
+  /* body, html {
+    height: 100%;
+    background:  #121f2c;
+    color: white;
+    
+  } */
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+   
+  
+  /* Position text in the middle of the page/image */
+  .bg-image{
+    background: none;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("img/photo3.jpg" );
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+    height:500px;
+    background-size: 100% 130%;
+    font-size: 20px; 
+    color: beige;
+    text-align: center;
+    }
+
+  .foter{
+  
+    background:  #121f2c;
+     
+   }
+   .hist{
+    background:  #121f2c;
+    color: white;
+    text-align: center;
+   }
+  .bg{
+    background: none;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("img/bokeh-répartition-de-la-lumière-dans-la-ville-pasante.jpg" );
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+    height:100%;
+    background-size: 100% 130%;
+    color: white;
+    text-align: center;
+
+}
+.bd-example{
+  background: none;   
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("image/log.jpg" );
+  background-size: cover;
+  background-position: center;
+  padding: 2%;
+  height:400px;
+  background-size: 100% 130%;
+}
+#tit{
+  font-size: 3em;
+  color: #f1f1f1;
+}
+.btn{
+  background-color: rgb(237, 49, 6);
+  color: white;
+
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.product-small-img img{
+  height: 92px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  opacity: .6;
+}
+.product-small-img{
+  float:left ;
+}
+.product-small-img img:hover{
+  opacity: 1;
+}
+.product{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.img-container img{
+height: 500px;
+
+}
+.img-container{
+  float: right;
+  padding: 10px;
+}
+ /* *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+ } 
+ .background{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ }
+ .background::before{
+  content: '';
+  background-image: url(img/20230203_204613.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.35;
+ }
+ #hun{
+  font-size: 80px;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+ } */
+  
+  
+  

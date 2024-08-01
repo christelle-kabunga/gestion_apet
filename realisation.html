@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>realisations</title>
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark foter" aria-label="Third navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.jpg" style="width: 80px; height: 80px; border-radius: 50%;" class="img-fluid col-lg-2" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-end" id="navbarsExample03">
+            <ul class="navbar-nav  mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Service</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                  <li><a class="dropdown-item" href="soudure.html">Travaux de soudure</a></li>
+                  <li><a class="dropdown-item" href="reparation.html">Réparation</a></li>
+                  <li><a class="dropdown-item" href="realisation.html">Réalisation</a></li>
+                  <li><a class="dropdown-item" href="conception.html">Conception</a></li>
+                </ul>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="apropos.html">A propos</a>
+              </li>
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+   <div class="product">
+<div class="product-small-img">
+    <img src="img/20230203_135742.jpg" onclick="myFunction(this)" alt="">
+    <img src="img/20230203_135503.jpg" onclick="myFunction(this)" alt="">
+    <img src="img/20230202_195027.jpg" onclick="myFunction(this)" alt="">
+    <img src="img/20230204_122931.jpg" onclick="myFunction(this)" alt="">
+    <img src="img/20230204_165044.jpg" onclick="myFunction(this)" alt="">
+</div>
+<div class="img-container">
+    <img id="ImageBox" src="img/20230203_135742.jpg" alt="">
+</div>
+   </div> 
+   <!-- <div class="background">
+<h1 id="hun">transparen image</h1>
+   </div> -->
+      <script>
+    function myFunction(smallImg)
+    {
+        var fullImg= document.getElementById(ImageBox);
+        fullImg.src=smallImg.src;
+    }
+   </script>
+
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
